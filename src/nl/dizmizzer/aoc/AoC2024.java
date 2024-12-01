@@ -4,9 +4,9 @@ import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 
-public class AoC2022 {
+public class AoC2024 {
 
-    private final static boolean DEBUG = false;
+    private final static boolean DEBUG = true;
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         int totalDays = Objects.requireNonNull(new File("input").listFiles()).length;
